@@ -10,5 +10,6 @@ For help with writing an extension see the [documentation](https://htmx.org/exte
 Each project uses a different bundler to transpile and bundle your code.
 
 - Vite
+- Rolldown
 - Parcel
 - Rspack
