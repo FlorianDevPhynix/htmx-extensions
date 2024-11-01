@@ -1,0 +1,29 @@
+{
+  "name": "htmx-extensions",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "npm-watch build",
+    "build": "rolldown -c",
+    "check": "tsc --noEmit"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,ts"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "htmx.org": "^1.9.12",
+    "npm-watch": "^0.13.0",
+    "rolldown": "^0.13.2",
+    "typescript": "^5.6.3"
+  }
+}
